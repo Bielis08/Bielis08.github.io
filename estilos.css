@@ -1,0 +1,46 @@
+img {
+    position: fixed;
+    left: 0px;
+    margin-left: 15px;
+}
+header {
+    position: sticky;
+    background-color: #ffe5b4;
+    margin: 0px;
+    border-bottom: ridge #ffe5b4 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+body{
+    margin: 0px;
+    background-color: #feeabb;
+}
+
+nav a {
+    padding: 6% 10px;
+    margin: 4% 6px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    transition: 0.2s ease-in-out;
+}
+nav a:hover {
+    background-color: #ffdf99;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+nav a:active {
+    background-color: #ffcb77;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    background-color: #333;
+    height: 50px;
+    border-radius: 16px;
+}
