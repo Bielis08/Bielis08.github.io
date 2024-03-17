@@ -32,6 +32,29 @@ header {
     height: 100px;
 }
 
+footer {
+    background-color: #ffdf99;
+}
+
+footer h3 {
+    font-size: 25px;
+    font-family: Barlow Thin;
+    padding-top: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    padding-bottom: 10px;
+}
+
 body{
     margin: 0px;
     background-color: #feeabb;
@@ -100,4 +123,9 @@ nav {
 @font-face {
     font-family: Barlow regular;
     src: url('Fonts/BarlowSemiCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: Barlow Thin;
+    src: url('Fonts/BarlowSemiCondensed-Thin.ttf');
 }
