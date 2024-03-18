@@ -67,23 +67,29 @@ body{
 
 #galeria img {
     max-width: 1000px;
+    min-width: 300px;
     width: 80%;
 }
 
 #recetas {
     padding: 30px;
     display: inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    width: 70%;
+    height: max-content;
 }
 
 .receta {
     margin: 30px 10px;
-    width: 260px;
+    width: 350px;
     background-color: #ffdf99;
     border-radius: 20px;
 }
 
 .receta h1 {
     margin: 20px 10px;
+    size: 50px;
 }
 
 .receta p {
@@ -123,6 +129,18 @@ footer p {
 
 /*No decorativas*/
 
+@media only screen and (max-width: 1150px){
+    #recetas {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    #recetas {
+        grid-template-columns: auto;
+    }
+}
+
 /* Tablet */
 @media only screen and (max-width: 740px) {
     nav {
@@ -150,6 +168,10 @@ footer p {
 
     header {
         height: 80px;
+    }
+
+    #galeria {
+        padding: 5px;
     }
 }
 
