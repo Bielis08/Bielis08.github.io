@@ -141,6 +141,18 @@ footer p {
 }
 
 /*No decorativas*/
+@media only screen and (max-width: 1450px){
+    img {
+        width: 170px;
+        height: auto;
+    }
+
+    #galeria {
+        padding: 5px;
+        margin-top: 150px;
+        margin-bottom: 200px;
+    }
+}
 
 @media only screen and (max-width: 1150px){
     #recetas {
@@ -152,6 +164,16 @@ footer p {
     #recetas {
         grid-template-columns: auto;
     }
+    img {
+        width: 170px;
+        height: auto;
+    }
+
+    #galeria {
+        padding: 5px;
+        margin-top: 250px;
+        margin-bottom: 300px;
+    }
 }
 
 /* Tablet */
@@ -159,6 +181,12 @@ footer p {
     nav {
         position: fixed;
         right: 10px;
+    }
+    
+    #galeria {
+        padding: 5px;
+        margin-top: 250px;
+        margin-bottom: 350px;
     }
 }
 /* Mobil */
@@ -185,6 +213,12 @@ footer p {
 
     #galeria {
         padding: 5px;
+        margin-top: 250px;
+        margin-bottom: 400px;
+    }
+
+    .receta{
+        width: 250px;
     }
 }
 
