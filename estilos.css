@@ -85,6 +85,11 @@ body{
     height: max-content;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .receta {
     margin: 30px 10px;
     width: 350px;
